@@ -1,0 +1,176 @@
+.footer{
+  background: url("../img/footer_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding: 54px 0 23px 0;
+  .container{
+    .logo{
+      margin: 0 auto;
+      svg{
+        width: 144px;
+        height: 69px;
+        display: block;
+        margin: 0 auto;
+        fill: #ffffff;
+      }
+    }
+    p{
+      color: #ffffff;
+      font-family: 'SpectralSC-Regular';
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      padding: 9px 6px 21px 0;
+    }
+    .menu{
+      padding: 9px 6px 21px 0;
+      li{
+        a{
+          color: #ffffff;
+          font-family: 'SpectralSC-Regular';
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 28px;
+        }
+      }
+    }
+    .address{
+      padding: 9px 6px 21px 0;
+      li{
+        color: #ffffff;
+        font-family: 'SpectralSC-Regular';
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 30px;
+        &.nameCompany{
+          color: #ffffff;
+          font-family: 'SpectralSC-Regular';
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 30px;
+          a{
+            color: #ffffff;
+            font-family: 'SpectralSC-Regular';
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 30px;
+            display: block;
+            text-decoration: underline;
+          }
+        }
+        &.phone_coll{
+          color: #ffffff;
+          font-family: 'SpectralSC-Regular';
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 30px;
+          a{
+            color: #ffffff;
+            font-family: 'SpectralSC-Regular';
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 30px;
+            display: block;
+            text-decoration: underline;
+          }
+        }
+        a{
+          color: #ffffff;
+          font-family: 'SpectralSC-Regular';
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 30px;
+          &.tel{
+            font-family: 'SpectralSC-Regular';
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 30px;
+            color: #fff;
+          }
+          &.mail{
+            font-family: 'SpectralSC-Regular';
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 30px;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .about{
+      color: #ffffff;
+      font-family: 'SpectralSC-Regular';
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+@media (min-width: 768px){
+  .footer{
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      .menu{
+        width: 48%;
+      }
+      .address{
+        width: 48%;
+      }
+    }
+  }
+}
+@media (min-width: 1280px){
+  .footer{
+    padding: 75px 0 23px;
+    .container{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 1080px;
+      .logo{
+        width: 100%;
+        svg{
+          width: 200px;
+          height: 93px;
+        }
+      }
+      p{
+        width: 31%;
+        padding: 54px 15px 0 10px;
+      }
+      .menu{
+        width: 31%;
+        padding: 54px 15px 0 0px;
+        li{
+          a{
+
+          }
+        }
+      }
+      .address{
+        width: 32%;
+        padding: 48px 15px 0 0px;
+      }
+      .about{
+
+        width: 100%;
+        text-align: center;
+        padding: 68px 0 10px 0;
+
+      }
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+   width: 1140px;
+  }
+}

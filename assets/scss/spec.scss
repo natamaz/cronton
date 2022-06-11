@@ -1,0 +1,115 @@
+.wrapper{
+  .banner{
+    background-color: #000000;
+    padding: 46px 0 35px 0;
+    .container{
+      h1{
+        font-family: 'SpectralSC-Regular';
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 40px;
+        color: #fff;
+        margin: 11px 0 11px 0;
+      }
+    }
+  }
+  .content{
+    padding: 50px 0 30px 0;
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .box{
+        margin: 0 auto 22px;
+        width: 300px;
+        .img{
+          width: 299px;
+          height: 399px;
+        }
+        .text{
+          padding: 21px 5px 10px 2px;
+          h3{
+            color: #000000;
+            font-family: 'SpectralSC-Regular';
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 19.88px;
+          }
+          p{
+            color: #000000;
+            font-family: 'SpectralSC-Regular';
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16.57px;
+            padding: 10px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .wrapper{
+    .content{
+      .container{
+        .box{
+          margin: 0 0 22px 0;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .wrapper{
+    .banner{
+      padding: 61px 0 53px;
+      .container{
+        h1{
+          font-size: 72px;
+          font-weight: 500;
+          line-height: 71px;
+          margin: 9px 0;
+        }
+      }
+    }
+    .content{
+      padding: 61px 0 0px;
+      .container{
+        .box{
+          margin: 0 0 55px;
+          width: 330px;
+          .img{
+            width: 330px;
+            height: auto;
+          }
+          .text{
+            padding: 28px 5px 10px 2px;
+            h3{
+              font-size: 22px;
+            }
+            p{
+              font-size: 14px;
+              line-height: 19.57px;
+              padding: 16px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .wrapper{
+    .content{
+      .container{
+        .box{
+          width: 360px;
+          .img{
+            width: 360px;
+            height: 480px;
+          }
+        }
+      }
+    }
+  }
+}

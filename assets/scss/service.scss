@@ -1,0 +1,207 @@
+.wrapper{
+  .service{
+    position: relative;
+    padding: 30px 0 0 0;
+    overflow: hidden;
+    &:before{
+      content: '';
+      background-color: #000000;
+      width: 100%;
+      height: 143px;
+      top:0;
+      left: 0;
+      position: absolute;
+    }
+    .container{
+      .title{
+        color: #ffffff;
+        line-height: 51px;
+        margin: 0 0 31px 0;
+      }
+
+
+    }
+    .box{
+      position: relative;
+      margin: 0px auto 12px;
+      &:before{
+        content: '';
+        border: 1px solid #9f9f9f;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 102%;
+      }
+      .top{
+        padding: 134px 5px 46px 0px;
+        background-repeat: no-repeat;
+        background-position: center;
+        .container{
+          span{
+            font-family: 'SpectralSC-Regular';
+            font-size: 120px;
+            font-weight: 500;
+            line-height: 67px;
+            position: absolute;
+            top: -63px;
+            left: 10px;
+            overflow: hidden;
+            height: 53px;
+            color: #fff;
+          }
+          h4{
+            font-family: 'SpectralSC-Regular';
+            font-size: 34px;
+            font-weight: 500;
+            line-height: 36px;
+            min-height: 72px;
+            color: #fff;
+          }
+        }
+      }
+      .container{
+
+        .bottom{
+          margin: 44px 0 45px;
+
+          h4{
+            color: #000000;
+            font-family: 'SpectralSC-Regular';
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 22px;
+          }
+          ul{
+            margin: 22px 0 40px;
+
+            padding: 0px 30px 0 0;
+
+            li{
+              margin: 0 0 30px 0;
+              .link2{
+                font-size: 18px;
+                line-height: 20px;
+                transition: 0.3s;
+                &:before{
+                  transition: 0.3s;
+                }
+                &:hover{
+                  &:before{
+                    color: #fff;
+                    background-color: #1c1c1c;
+                    border: 1px solid #fff;
+                  }
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1280px){
+  .wrapper{
+    .service{
+      &:before{
+        height: 458px;
+      }
+      .container{
+        .title{
+          color: #ffffff;
+          padding: 36px 0 27px;
+          font-size: 71px;
+        }
+
+
+      }
+      .box{
+        position: relative;
+
+        margin: 0px auto 12px;
+        &:before{
+          width: 1080px;
+          height: 102%;
+          transform: translate(-50%, 0px);
+          left: 50%;
+        }
+        .top{
+          width: 1080px;
+          margin: 0 auto;
+         .container{
+           span{
+             font-family: 'SpectralSC-Regular';
+             font-size: 120px;
+             font-weight: 500;
+             line-height: 80px;
+             position: absolute;
+             top: -69px;
+             left: 39px;
+             overflow: hidden;
+             height: 56px;
+             color: #fff;
+           }
+           h4{
+             font-size: 34px;
+             padding: 0px 725px 0px 37px;
+           }
+         }
+        }
+        .container{
+
+          .bottom{
+            padding: 14px 40px 13px;
+
+            h4{
+              color: #000000;
+              font-family: 'SpectralSC-Regular';
+              font-size: 28px;
+              font-weight: 500;
+              line-height: 22px;
+              padding: 10px 0 10px 0;
+            }
+            ul{
+              display: flex;
+              margin: 0;
+              flex-wrap: wrap;
+              padding: 13px 0 5px 0;
+              display: flex;
+              justify-content: space-between;
+              li{
+                margin: 0 0 11px 0;
+                width: 30%;
+                .link2{
+                  font-size: 19px;
+                }
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1400px){
+  .wrapper{
+    .service{
+
+      .container{
+
+
+
+      }
+      .box{
+        &:before{
+          width: 1140px;
+
+        }
+        .top{
+          width: 1140px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
